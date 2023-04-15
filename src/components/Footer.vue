@@ -6,7 +6,7 @@
             </p>
 
             <!-- <p class="font-bold">
-                Site created by <a href="https://github.com/AndrewR3K" target="_blank"
+                Site created by <a href="https://github.com/BryceCanyonCounty" target="_blank"
                     class="link link-primary">bytesizd</a>
             </p> -->
             <p>Copyright © 2023 - All right reserved. The website content is licensed CC BY NC SA 4.0.</p>
