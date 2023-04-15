@@ -1,31 +1,13 @@
 <template>
-  <mHeader></mHeader>
+  <Header></Header>
   <router-view style="min-height: 80vh;"></router-view>
-  <mFooter></mFooter>
+  <Footer></Footer>
 </template>
 
-<script>
+<script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import Card from './components/Card.vue'
 
-export default {
-  name: 'App',
-  data() {
-      return {
-      };
-  },
-  components: {
-      mHeader: Header,
-      mFooter: Footer,
-      mCard: Card
-  },
-  mounted() {
-  },
-  methods: {
-     
-  },
-};
 </script>
 <style scoped>
 .slide-fade-enter-active {

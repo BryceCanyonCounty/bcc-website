@@ -82,6 +82,47 @@
   resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@unhead/dom@1.1.25", "@unhead/dom@^1.1.23":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.1.25.tgz#08b4809e8dc3a4f7daf4f54db326dffcd96a3c8e"
+  integrity sha512-kJ5jhJFNQCyNENSw+mtmzgulA0kqUuXS3SRPl1umpofc8PH8tblSzXwqStxTj9r6E4wxJbEuygT/aHFJVioizw==
+  dependencies:
+    "@unhead/schema" "1.1.25"
+    "@unhead/shared" "1.1.25"
+
+"@unhead/schema@1.1.25", "@unhead/schema@^1.1.23":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.1.25.tgz#0fd0acfa1b3a672f235e41f0d2c4ba823af0ede5"
+  integrity sha512-ygmaxWgGTAq9CcB6zGY4+0HlGdQt/oMq+CM18tTnvOBY0Og/uPGt7roW8eH717GpTPibKRTpagSYzZYdL0tWeg==
+  dependencies:
+    hookable "^5.5.1"
+    zhead "^2.0.4"
+
+"@unhead/shared@1.1.25":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.1.25.tgz#acbdb5fc9b226563d120742958cee2e0da05cf45"
+  integrity sha512-KptKbk4py1MFYHYwDJ/0kPOs+95dYMrWIT1fCV9lGcVAwu20wIHh+WX18s+iEWhc66xkGRxgC/xsl4wJJFPE+w==
+  dependencies:
+    "@unhead/schema" "1.1.25"
+
+"@unhead/ssr@^1.1.23":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.1.25.tgz#fc332c8e3c65d315b3a7357c7211659227cb2ae7"
+  integrity sha512-2S3tiajy6n3D1WY2pVkRLr74WGaHD08w0+nFaQGNy0LszPlkWUuAmYYqDCXdh03ijEl+Tjwqjn+E9w1e3QakuQ==
+  dependencies:
+    "@unhead/schema" "1.1.25"
+    "@unhead/shared" "1.1.25"
+
+"@unhead/vue@^1.1.23":
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.1.25.tgz#ff9c603349ccb9f6a69e6ded1e4878566d5565f8"
+  integrity sha512-ujincFHftg2N2i3G/gVkMyJ7CFzVyZ8SMb5cJCWZEnDBQGjgy3uvWT6EaM0d2jnaeXiYbB+iyY0O1o/H+XlpKQ==
+  dependencies:
+    "@unhead/schema" "1.1.25"
+    "@unhead/shared" "1.1.25"
+    hookable "^5.5.1"
+    unhead "1.1.25"
+
 "@vitejs/plugin-vue@^3.1.0":
   version "3.1.0"
   resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-3.1.0.tgz"
@@ -189,6 +230,16 @@
   version "3.2.39"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.2.39.tgz"
   integrity sha512-D3dl2ZB9qE6mTuWPk9RlhDeP1dgNRUKC3NJxji74A4yL8M2MwlhLKUC/49WHjrNzSPug58fWx/yFbaTzGAQSBw==
+
+"@vueuse/head@^1.1.23":
+  version "1.1.23"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-1.1.23.tgz#a94a4457aed0768d4e9a595097b9d1716a67962b"
+  integrity sha512-bJiiQXrICvCI740jR2CLK+FhXyvMx2dIfyeF3FdOsYJn6OtexdBI2wchyuKNYmiAQ8cibAHxmDUytAFqIdIRJg==
+  dependencies:
+    "@unhead/dom" "^1.1.23"
+    "@unhead/schema" "^1.1.23"
+    "@unhead/ssr" "^1.1.23"
+    "@unhead/vue" "^1.1.23"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -1089,6 +1140,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hookable@^5.5.1:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.5.3.tgz#6cfc358984a1ef991e2518cb9ed4a778bbd3215d"
+  integrity sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==
+
 ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
@@ -1931,6 +1987,16 @@ type-fest@^0.20.2:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
+unhead@1.1.25:
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.1.25.tgz#1aff7354ec536f7abc05ec85603b13e5c532ee21"
+  integrity sha512-KtTBgtQjxICoOjA4dyxJfj5fYoYJeYFUt/J8ulaTzbvTsXM9K+ztYjI65nf2CPYYXRCRz/iEt8trqcsGlsB5TQ==
+  dependencies:
+    "@unhead/dom" "1.1.25"
+    "@unhead/schema" "1.1.25"
+    "@unhead/shared" "1.1.25"
+    hookable "^5.5.1"
+
 update-browserslist-db@^1.0.9:
   version "1.0.9"
   resolved "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
@@ -1988,6 +2054,11 @@ vue-eslint-parser@^9.0.1:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.6"
+
+vue-gtag@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-2.0.1.tgz#d4dc1b9cf79809c37ce844824c0f7fa97af520dd"
+  integrity sha512-aM4A58FVL0wV2ptYi+xzAjeg+pQVRyUcfBc5UkXAwQrR4t3WBhor50Izp2I+3Oo7+l+vWJ7u78DGcNzReb8S/A==
 
 vue-router@^4.1.5:
   version "4.1.5"
@@ -2048,3 +2119,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zhead@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/zhead/-/zhead-2.0.4.tgz#42509bbe85b790de9121301eac47d440d9073876"
+  integrity sha512-V4R94t3ifk9AURym6OskbKcnowzgp5Z88tkoL/NF67vyryNxC62u6mx5F1Ux4oh4+YN7FFmKYEyWy6m5kfPH6g==

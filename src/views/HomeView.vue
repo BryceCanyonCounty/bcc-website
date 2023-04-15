@@ -16,6 +16,7 @@ import Stats from '../components/Stats.vue'
 import axios from 'axios'
 
 import resources from '../data/resources.json'
+import { useHead } from '@vueuse/head'
 
 export default {
   name: 'HomeView',
@@ -48,13 +49,19 @@ export default {
     Hero: Hero,
     Stats: Stats
   },
+  created() {
+    useHead({
+      title: 'Home',
+      titleTemplate: (title) => `${title} | BCC Scripts`,
+    })
+  },
   mounted() {
     this.getDiscordStats()
     this.getResourceTotal()
   },
   methods: {
     getResourceTotal() {
-      this.statssection[1].stat =  Object.keys(resources).length + 1
+      this.statssection[1].stat = Object.keys(resources).length + 1
     },
     async getDiscordStats() {
       let serverstats = await axios({

@@ -19,13 +19,19 @@
 </template>
 
 <script>
+import { useHead } from '@vueuse/head'
+
 export default {
     name: 'ResourcesView',
     data() {
         return {
         };
     },
-    mounted() {
+    created() {
+        useHead({
+            title: 'Not Found',
+            titleTemplate: (title) => `${title} | BCC Scripts`,
+        })
     },
     methods: {
     }
