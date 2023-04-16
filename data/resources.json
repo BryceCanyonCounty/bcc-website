@@ -124,7 +124,8 @@
         "title": "BCC Versioner",
         "description": "An API that allows developers to check the latest version of their custom scripts on GitHub. With Release(Tag) and Version File based checks, you can easily ensure your players are running the most up-to-date version of your script. ",
         "link": "https://github.com/BryceCanyonCounty/bcc-versioner",
-        "categories": ["development"]
+        "categories": ["development"],
+        "docs": true
     },
     "bcc-discord": {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpssVsCaCOczjkzUSbA10AX87J_B_qS0ZQKw&usqp=CAU",

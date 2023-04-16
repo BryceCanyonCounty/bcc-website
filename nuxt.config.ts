@@ -1,14 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     target: 'static',
+    router: { options: { strict: true, }, },
     modules: [
         '@nuxtjs/tailwindcss',
         'nuxt-gtag',
         '@nuxt/content'
     ],
-    ssr: false,
-
-    
     
     content: {
         // https://content.nuxtjs.org/api/configuration
