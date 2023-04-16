@@ -27,7 +27,7 @@
             </div>
 
             <div class="mt-12 text-center">
-                <button class="btn btn-accent">Supercharge Your Server</button>
+                <button class="btn btn-accent" @click="gotoresources()">Supercharge Your Server</button>
             </div>
         </div>
     </section>
@@ -55,6 +55,11 @@ export default {
                     description: 'Our scripts are optimized for maximum performance, ensuring that your server runs smoothly and efficiently even under heavy traffic.'
                 }
             ]
+        }
+    },
+    methods: {
+        gotoresources() {
+            this.$router.push('/resources')
         }
     }
 };
