@@ -2,10 +2,10 @@
 
 > This is the codebase that drives bcc-scripts.com
 
-
 ## Support & collaboration
 
-## Dependencies 
+## Dependencies
+
 - [nodejs ^14.18.0](https://nodejs.org/)
 
 ## Stack
@@ -21,14 +21,14 @@
 ## Install
 
 ```
-yarn
+npm
 ```
 
 ## Run / Develop
 
 ```
 
-yarn run dev
+npm run dev
 
 ```
 
@@ -36,7 +36,7 @@ yarn run dev
 
 ```
 
-yarn run build
+npm run generate
 
 ```
 
@@ -44,7 +44,7 @@ yarn run build
 
 ```
 
-yarn run preview
+npm run preview
 
 ```
 
@@ -52,6 +52,41 @@ yarn run preview
 
 ```
 
-yarn run lint
+npm run lint
 
 ```
+
+## How to Add/Edit content
+
+- `data/team.json` Feeds the team page data.
+
+  - "username": The name to display for the team member
+  - "position": The position of the team member
+  - "avatar": A URL/link to a picture for the member
+  - "github": A URL/link to the members github (optional)
+  - "youtube": A URL/link to the members youtube (optional)
+  - "twitch": A URL/link to the members twitch (optional)
+
+- `data/resources.json` Feeds the resources page
+
+    ```json
+    "name-of-script": {
+        "image": "A URL/Link to an image for script (optional)",
+        "title": "A more presentable title for the script",
+        "description": "Describes the script",
+        "link": "A URL/Link for the script",
+        "categories": ["scripts"], -- a list of what categories this script is in options include ('scripts', 'utility', 'development')
+        "action": "what the button should say (optional)",
+        "docs": true or false -- This toggle if the resource should link to a docs page 
+    },
+    ```
+
+- `content/doc/*` Feeds the team page data.
+
+    This is a file based system that utilizes Markdown to make content management easier for documentation.
+
+    **Example:**
+    `content/docs/name-of-script` will create a docment page. You can then view this page by setting "docs": true, within the associated resource within `data/resources.json`.
+    
+    NOTE: `name-of-script` MUST match the resouce key within the `data/resources.json` file. 
+
