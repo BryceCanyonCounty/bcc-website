@@ -2,7 +2,7 @@
   <div class="hero min-h-fit bg-base-200 py-10">
     <div class="hero-content text-center">
       <div class="max-w-md">
-        <img v-if="img" :src="img" class="mx-auto min-w-20"/>
+        <img v-if="img" :src="img" class="mx-auto min-w-20 prevent-select" draggable="false"/>
         <h1 class="text-5xl font-bold prevent-select">{{ title }}</h1>
         <p class="py-6 prevent-select">{{ description }}</p>
         <button class="btn btn-primary" @click="actionClicked" v-if="actiontext">{{ actiontext }}</button>

@@ -9,7 +9,20 @@ import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
 </script>
-<style scoped>
+
+<style>
+.prevent-select {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
 }
