@@ -6,6 +6,8 @@ export default defineNuxtConfig({
         'nuxt-gtag',
         '@nuxt/content'
     ],
+    ssr: false,
+
     
     
     content: {
