@@ -12,8 +12,8 @@
       <LinkGrid></LinkGrid>
     </div>
 
-    <Hero :img="'/oss.png'" title="Open Source. Free. Always."
-      description="Our roleplay scripts are made and maintained purely as a labor of love, driven by our passion for roleplaying and our desire to share our creations with others. We offer them freely and as a way to contribute to the community and help others explore and enjoy the art of roleplaying and programming.">
+    <Hero @btn-clicked="gotoGH()" actiontext="Help Contribute" :img="'/oss.png'" title="Open Source. Free. Always."
+      description="Our roleplay scripts are made and maintained purely as a labor of love, driven by the community with passion for roleplaying and the desire to share our creations with others. We offer them freely and as a way to contribute to the community and help others explore and enjoy the art of roleplaying and programming.">
     </Hero>
   </main>
 </template>
@@ -72,6 +72,9 @@ export default defineNuxtComponent({
     this.getResourceTotal()
   },
   methods: {
+    gotoGH() {
+      window.open('https://github.com/BryceCanyonCounty', "_blank");
+    },
     getResourceTotal() {
       this.statssection[1].stat = Object.keys(resources).length + 1
     },
