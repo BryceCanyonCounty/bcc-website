@@ -42,23 +42,26 @@
 </template>
 
 <script>
-import team from '../data/team.json'
-import { useHead } from '@vueuse/head'
+import team from '~/data/team.json'
 
-export default {
+export default defineNuxtComponent({
+    head(nuxtApp) {
+        // `head` receives the nuxt app but cannot access the component instance
+        return {
+            title: 'Our Team | BCC Scripts',
+            meta: [{
+                name: 'description',
+                content: 'A Premier RedM Development Studio that provides in-depth tutorials, development resources, and open source scripts for the community.'
+            }]
+        }
+    },
     name: 'ResourcesView',
     data() {
         return {
             team: team
         };
     },
-    created() {
-        useHead({
-            title: 'Team',
-            titleTemplate: (title) => `${title} | BCC Scripts`,
-        })
-    },
     methods: {
     }
-};
+});
 </script>

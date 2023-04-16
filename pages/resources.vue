@@ -73,22 +73,25 @@
 </template>
   
 <script>
-import scripts from '../data/resources.json'
-import { useHead } from '@vueuse/head'
+import scripts from '~/data/resources.json'
 
-export default {
+export default defineNuxtComponent({
+  head (nuxtApp) {
+    // `head` receives the nuxt app but cannot access the component instance
+    return {
+      title: 'Resources | BCC Scripts',
+      meta: [{
+        name: 'description',
+        content: 'A Premier RedM Development Studio that provides in-depth tutorials, development resources, and open source scripts for the community.'
+      }]
+    }
+  },
   name: 'ResourcesView',
   data() {
     return {
       scripts: scripts,
       activefilter: 'all'
     };
-  },
-  created() {
-    useHead({
-      title: 'Resources',
-      titleTemplate: (title) => `${title} | BCC Scripts`,
-    })
   },
   mounted() {
     window.scrollTo(0,0);
@@ -116,6 +119,6 @@ export default {
       return scripts
     }
   }
-};
+});
 </script>
   

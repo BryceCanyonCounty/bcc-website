@@ -1,5 +1,3 @@
-name: Deploy Site
-
 on:
   workflow_dispatch: {}
   push:
@@ -25,10 +23,12 @@ jobs:
       - run: npm install --frozen-lockfile
       - name: Build
         run: npm run build
+      - name: Generate
+        run: npm run generate
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: .output/public
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
