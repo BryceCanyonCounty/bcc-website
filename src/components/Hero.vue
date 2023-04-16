@@ -3,9 +3,9 @@
     <div class="hero-content text-center">
       <div class="max-w-md">
         <img v-if="img" :src="img" c/>
-        <h1 class="text-5xl font-bold">{{ title }}</h1>
-        <p class="py-6">{{ description }}</p>
-        <button class="btn btn-primary" @click="actionClicked">{{ actiontext }}</button>
+        <h1 class="text-5xl font-bold prevent-select">{{ title }}</h1>
+        <p class="py-6 prevent-select">{{ description }}</p>
+        <button class="btn btn-primary" @click="actionClicked" v-if="actiontext">{{ actiontext }}</button>
       </div>
     </div>
   </div>

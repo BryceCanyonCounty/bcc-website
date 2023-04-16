@@ -1,11 +1,14 @@
 <template>
   <main>
-    <Hero title="A Premier RedM Development Studio"
-      description=" We are passionate about exploring the endless possibilities of RedM and bringing together a community of fellow enthusiasts. Our team provides in-depth tutorials, development resources, and open source scripts for the community. Whether you're an experienced developer or a curious player, we are here to create quality content for the RedM Community."
-      actiontext="Learn More"></Hero>
+    <Hero :img="'/logo_full.png'" title="A Premier RedM Development Studio"
+      description=" We are passionate about exploring the endless possibilities of RedM and bringing together a community of fellow enthusiasts. Our team provides in-depth tutorials, development resources, and open source scripts for the community. Whether you're an experienced developer or a curious player, we are here to create quality content for the RedM Community."></Hero>
 
     <div class="w-full bg-primary p-6">
       <Stats :stats="statssection"></Stats>
+    </div>
+
+    <div  class="w-full bg-base-200 p-6">
+        <LinkGrid></LinkGrid>
     </div>
   </main>
 </template>
@@ -13,6 +16,8 @@
 <script>
 import Hero from '../components/Hero.vue'
 import Stats from '../components/Stats.vue'
+import LinkGrid from '../components/LinkGrid.vue'
+
 import axios from 'axios'
 
 import resources from '../data/resources.json'
@@ -47,7 +52,8 @@ export default {
   },
   components: {
     Hero: Hero,
-    Stats: Stats
+    Stats: Stats,
+    LinkGrid: LinkGrid
   },
   created() {
     useHead({
