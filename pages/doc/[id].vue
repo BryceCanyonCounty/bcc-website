@@ -16,13 +16,11 @@ const route = useRoute()
 
 const { data } = await useAsyncData('doc/bcc-scene', () => queryContent(route.path).findOne())
 
-
-
 useHead({
-    title: `${data._value.title} | BCC Scripts`,
+    title: `${data.value.title} | BCC Scripts`,
     meta: [{
         name: 'description',
-        content: data._value.description
+        content: data.value.description
     }]
 })
 </script>
