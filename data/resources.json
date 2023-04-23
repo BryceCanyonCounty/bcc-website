@@ -119,13 +119,20 @@
         "link": "https://github.com/BryceCanyonCounty/bcc-vehiclefixes",
         "categories": ["scripts"]
     },
+    "bcc-utils": {
+        "image": "https://cdn.vox-cdn.com/thumbor/9ChYQ5yjlYA5AIprgbRAIZORWHk=/0x0:1920x1080/1200x0/filters:focal(0x0:1920x1080):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/8560435/red_dead_redemption_2_screenshot_03_1920.jpg",
+        "title": "BCC Utils",
+        "description": "A developer API that combines a github version check and discord webhook api (previously bcc-versioner and bcc-discord). Plus more!",
+        "link": "https://github.com/BryceCanyonCounty/bcc-utils",
+        "categories": ["development"],
+        "docs": true
+    },
     "bcc-versioner": {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh7ga2ZlIcJnHENV9CjSYh3M0R-DGbAuEwHA&usqp=CAU",
         "title": "BCC Versioner",
         "description": "An API that allows developers to check the latest version of their custom scripts on GitHub. With Release(Tag) and Version File based checks, you can easily ensure your players are running the most up-to-date version of your script. ",
         "link": "https://github.com/BryceCanyonCounty/bcc-versioner",
-        "categories": ["development"],
-        "docs": true
+        "categories": ["development"]
     },
     "bcc-discord": {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpssVsCaCOczjkzUSbA10AX87J_B_qS0ZQKw&usqp=CAU",
