@@ -40,5 +40,52 @@
                 "stage": "backlog"
             }
         ]
+    },
+    "bcc-oil": {
+        "title": "BCC Oil",
+        "description": "A highly customizable, easy to install, feature heavy Oil job system will add plenty of content to your server!",
+        "roadmap": [
+            {
+                "title": "Custom Wagon Blip",
+                "description": "Add a customizable blip to your oil, and supply wagons.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Oil Sniffing",
+                "description": "Add a place to sniff oil and get high.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Robbery Overhaul",
+                "description": "Plan to make the robbery more customizable.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Alert Police During Robberies",
+                "description": "Send an alert to the cops during robberies.",
+                "stage": "backlog"
+            }
+        ]
+    },
+    "bcc-farming": {
+        "title": "BCC Farming",
+        "description": "A highly customizable farming script will handle all your farming needs!",
+        "roadmap": [
+            {
+                "title": "Stealing Plants",
+                "description": "Add a config option to allow players to steal other players plants.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Fertilizer",
+                "description": "Add fertilizer, and when used will decrease the time it takes for the plant to grow.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Refill Water Buckets At Pumps",
+                "description": "Creates a built in option to refill water buckets at pumps.",
+                "stage": "backlog"
+            }
+        ]
     }
 }

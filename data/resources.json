@@ -36,6 +36,7 @@
         "categories": ["scripts"]
     },
     "bcc-oil": {
+        "roadmap": true,
         "image": "https://static.wikia.nocookie.net/reddeadredemption/images/f/f3/OILFIELDS.jpg",
         "title": "BCC Oil",
         "description": "Features a custom NUI menu, a level system, and the ability to own and use an oil and supply wagon. The script also allows you to undertake oil delivery, supply delivery, and oil wagon stealing missions, as well as rob the oil company. This script is highly customizable through the config.lua file.",
@@ -50,6 +51,7 @@
         "categories": ["scripts"]
     },
     "bcc-farming": {
+        "roadmap": true,
         "image": "https://www.rdr2.org/wp-content/uploads/2018/12/Plants-herbs.jpg",
         "title": "BCC Farming",
         "description": "Looking to add some farming fun to your RedM server? Check out bcc-farming! Our easy-to-use script allows you to create multiple crops, lock them by job, and even save progress after server restarts. Plus, with features like watering prompts and blips on plants, you'll have a blast tending to your virtual garden.",
