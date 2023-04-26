@@ -3,7 +3,7 @@
         <div class="navbar-start pl-4">
             <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" v-if="ready" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
@@ -64,6 +64,16 @@
 
 <script setup>
 import GoogleTranslateSelect from '@google-translate-select/vue3'
+import { ref, onMounted } from 'vue'
+
+const ready = ref()
+
+onMounted(() => {
+    ready.value = true
+})
+
+
+ready
 </script>
 
 <style>

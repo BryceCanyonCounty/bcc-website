@@ -16,12 +16,23 @@
             {
                 "title": "Player Event Detection",
                 "description": "Detect players using suspicious events",
-                "stage": "reviewing"
+                "stage": "backlog"
             },
             {
                 "title": "AC Event Scrambler",
                 "description": "Scramble AC events to prevent help prevent menus",
-                "stage": "released"
+                "stage": "backlog"
+            }
+        ]
+    },
+    "bcc-job-alerts": {
+        "title": "BCC Job Alerts",
+        "description": "A job-based alert/ping system designed for RedM/Vorp servers. It comes with customizable commands that allow players to alert specific job roles such as Doctor or Police.",
+        "roadmap": [
+            {
+                "title": "Create Documentation",
+                "description": "Docs for the developers.",
+                "stage": "backlog"
             }
         ]
     }

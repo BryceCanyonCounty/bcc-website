@@ -90,7 +90,8 @@
         "title": "BCC Job Alerts",
         "description": "A job-based alert/ping system designed for RedM/Vorp servers. It comes with customizable commands that allow players to alert specific job roles such as Doctor or Police.",
         "link": "https://github.com/BryceCanyonCounty/bcc-job-alerts",
-        "categories": ["scripts"]
+        "categories": ["scripts"],
+        "roadmap": true
     },
     "bcc-blindfold": {
         "image": "https://github.com/BryceCanyonCounty/bcc-blindfold/blob/main/ui/assets/blindfold.jpg?raw=true",
