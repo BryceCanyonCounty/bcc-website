@@ -25,6 +25,7 @@ module.exports = {
               "base-200": "#242933",
               "base-300": "#20252E",
               "base-content": "#A6ADBB",
+              "white": "#fff",
             },
           },
         ]

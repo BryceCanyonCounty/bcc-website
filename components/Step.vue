@@ -11,14 +11,14 @@
                 </div>
             </div>
             <div :class="`w-1/3 flex justify-between bg-${stageThree ? 'primary' : 'white'} h-1 items-center relative`">
-                <div :class="`bg-${stageTwo ? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex items-center justify-center -ml-2 tooltip`" data-tip="Developing">
+                <div :class="`bg-${stageTwo ? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex items-center justify-center -ml-2 tooltip`" data-tip="Developing"  :style="`${stageTwo ? '' : 'background-color: white;'}`">
                     <svg :class="`text-${stageTwo  ? 'white' : 'primary'} fill-current h-4 w-4`" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <path
                             d="M640 0V400c0 61.9-50.1 112-112 112c-61 0-110.5-48.7-112-109.3L48.4 502.9c-17.1 4.6-34.6-5.4-39.3-22.5s5.4-34.6 22.5-39.3L352 353.8V64c0-35.3 28.7-64 64-64H640zM576 400a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM23.1 207.7c-4.6-17.1 5.6-34.6 22.6-39.2l46.4-12.4 20.7 77.3c2.3 8.5 11.1 13.6 19.6 11.3l30.9-8.3c8.5-2.3 13.6-11.1 11.3-19.6l-20.7-77.3 46.4-12.4c17.1-4.6 34.6 5.6 39.2 22.6l41.4 154.5c4.6 17.1-5.6 34.6-22.6 39.2L103.7 384.9c-17.1 4.6-34.6-5.6-39.2-22.6L23.1 207.7z" />
                     </svg>
                 </div>
-                <div :class="`bg-${stageThree ? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex items-center justify-center -mr-3 relative tooltip`" data-tip="Reviewing">
+                <div :class="`bg-${stageThree ? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex items-center justify-center -mr-3 relative tooltip`" data-tip="Reviewing"  :style="`${stageThree ? '' : 'background-color: white;'}`">
                     <svg :class="`text-${stageThree  ? 'white' : 'primary'} fill-current h-4 w-4`" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <path
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div :class="`bg-${stageFour? 'primary' : 'white'} w-1/3 h-1 flex justify-end`">
-                <div :class="`bg-${stageFour? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex justify-center items-center -mt-2.5 tooltip`" data-tip="Released">
+                <div :class="`bg-${stageFour? 'primary' : 'white'} h-6 w-6 rounded-full shadow flex justify-center items-center -mt-2.5 tooltip`" data-tip="Released"  :style="`${stageFour ? '' : 'background-color: white;'}`">
                     <svg :class="`text-${stageFour  ? 'white' : 'primary'} fill-current h-4 w-4`" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <path
