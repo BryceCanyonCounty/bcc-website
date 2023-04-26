@@ -22,6 +22,11 @@
                 "title": "AC Event Scrambler",
                 "description": "Scramble AC events to prevent help prevent menus",
                 "stage": "backlog"
+            },
+            {
+                "title": "Player Reporting System",
+                "description": "A system for players to report mis-conduct or cheating.",
+                "stage": "backlog"
             }
         ]
     },
