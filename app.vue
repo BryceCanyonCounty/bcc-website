@@ -49,4 +49,24 @@ body {
 h3 {
   font-size: 1rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242933; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20252E; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2A303C; 
+}
 </style>

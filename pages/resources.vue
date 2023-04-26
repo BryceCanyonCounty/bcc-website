@@ -63,6 +63,7 @@
               </svg>
             </div>
 
+            <a v-if="script.roadmap" :href="`/roadmap/${key}`" class="btn align-middle">Roadmap</a>
             <a v-if="script.docs" :href="`/doc/${key}`" class="btn align-middle">Docs</a>
 
             <button class="btn btn-primary align-middle" @click="goto(script.link)">{{ script.action ? script.action :

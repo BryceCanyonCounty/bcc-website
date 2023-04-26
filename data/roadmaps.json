@@ -1,0 +1,28 @@
+{
+    "bcc-anticheat": {
+        "title": "BCC Anticheat",
+        "description": "Our AntiCheat script provides comprehensive protection against a wide range of cheats and exploits With real-time monitoring, our AntiCheat script can quickly identify and flag suspicious behavior, ensuring a safe game experience for all players.",
+        "roadmap": [
+            {
+                "title": "Framework support",
+                "description": "Allow for multiple frameworks, and a disable to full framework agnostic.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Mod Menu Prevention",
+                "description": "Prevention additions for mod menus",
+                "stage": "development"
+            },
+            {
+                "title": "Player Event Detection",
+                "description": "Detect players using suspicious events",
+                "stage": "reviewing"
+            },
+            {
+                "title": "AC Event Scrambler",
+                "description": "Scramble AC events to prevent help prevent menus",
+                "stage": "released"
+            }
+        ]
+    }
+}

@@ -11,7 +11,8 @@
         "title": "BCC AntiCheat",
         "description": "Our AntiCheat script provides comprehensive protection against a wide range of cheats and exploits With real-time monitoring, our AntiCheat script can quickly identify and flag suspicious behavior, ensuring a safe game experience for all players.",
         "link": "https://github.com/BryceCanyonCounty/bcc-anticheat",
-        "categories": ["scripts"]
+        "categories": ["scripts"],
+        "roadmap": true
     },
     "bcc-pets": {
         "image": "https://media.altchar.com/prod/images/940_530/gm-c2e1ada8-37b8-4358-807b-5533b2c30749-red-dead-redemption.jpg",
