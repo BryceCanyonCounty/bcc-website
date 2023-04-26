@@ -1,5 +1,5 @@
 <template>
-    <div class="w-80 mx-auto mt-8">
+    <div class="w-64 mx-auto mt-8">
         <div class="bg-gray-200 h-1 flex items-center justify-between">
             <div :class="`w-1/3 bg-${stageTwo ? 'primary' : 'white'} h-1 flex items-center`">
                 <div class="bg-primary h-6 w-6 rounded-full shadow flex items-center justify-center tooltip" data-tip="Backlog">
