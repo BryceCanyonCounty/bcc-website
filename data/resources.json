@@ -4,7 +4,8 @@
         "title": "BCC Scene",
         "description": "Add custom text 'scenes' anywhere in the RedM game world. Whether you want to create immersive NPC dialogue, display important quest information, or simply add some flavor text to enhance the game world's atmosphere, bcc-scene is the perfect solution.",
         "link": "https://github.com/BryceCanyonCounty/bcc-scene",
-        "categories": ["scripts"]
+        "categories": ["scripts"],
+        "roadmap": true
     },
     "bcc-anticheat": {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0aYxMTHIBtIBzMQsb6BNl7Mx_TQ7u5tr_g&usqp=CAU",

@@ -38,6 +38,11 @@
                 "title": "Create Documentation",
                 "description": "Docs for the developers.",
                 "stage": "backlog"
+            },
+            {
+                "title": "Response Command",
+                "description": "A command (/respond) that is a reply to Job Alerts, allows the person who enacted the alert to know someone is on their way.",
+                "stage": "backlog"
             }
         ]
     },
@@ -58,7 +63,7 @@
             {
                 "title": "Robbery Overhaul",
                 "description": "Plan to make the robbery more customizable.",
-                "stage": "backlog"
+                "stage": "development"
             },
             {
                 "title": "Alert Police During Robberies",
@@ -84,6 +89,17 @@
             {
                 "title": "Refill Water Buckets At Pumps",
                 "description": "Creates a built in option to refill water buckets at pumps.",
+                "stage": "backlog"
+            }
+        ]
+    },
+    "bcc-scene": {
+        "title": "BCC Scene",
+        "description": "Add custom text 'scenes' anywhere in the RedM game world. Whether you want to create immersive NPC dialogue, display important quest information, or simply add some flavor text to enhance the game world's atmosphere, bcc-scene is the perfect solution.",
+        "roadmap": [
+            {
+                "title": "Manage From a Distance",
+                "description": "Allow players to edit/delete scenes from a further distances. (For example, allow admin to delete scenes from anywhere)",
                 "stage": "backlog"
             }
         ]
