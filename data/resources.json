@@ -1,4 +1,18 @@
 {
+    "bcc-stables": {
+        "image": "https://cdn.mos.cms.futurecdn.net/2wM8h5SSzZCLk2QPpgeqUK-1200-80.jpg",
+        "title": "BCC Stables",
+        "description": "A stable script for RedM servers using the VORP framework offers an authentic stable experience with 7 original stable locations from the game. Players can buy/sell horses with cash or gold, limit stable access by job, and set individual shop hours per stable. Each horse has its own inventory, and players can feed and brush their horses through the horse menu for increased health and stamina.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-stables",
+        "categories": ["scripts"]
+    },
+    "bcc-water": {
+        "image": "https://i.pinimg.com/736x/96/4e/0f/964e0f72398139f68ed10f774d290f1b.jpg",
+        "title": "BCC Water",
+        "description": "A water script for RedM servers using the VORP framework allows players to carry a canteen of water, refill it at water sources, and drink directly from rivers and lakes. It includes separate health, stamina, and thirst config values and allows players to wash in water sources.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-water",
+        "categories": ["scripts"]
+    },
     "bcc-scene": {
         "image": "https://apptrigger.com/files/2018/10/RDR2_Screenshot-115.jpg",
         "title": "BCC Scene",
@@ -14,13 +28,6 @@
         "link": "https://github.com/BryceCanyonCounty/bcc-anticheat",
         "categories": ["scripts"],
         "roadmap": true
-    },
-    "bcc-pets": {
-        "image": "https://media.altchar.com/prod/images/940_530/gm-c2e1ada8-37b8-4358-807b-5533b2c30749-red-dead-redemption.jpg",
-        "title": "BCC Pets",
-        "description": "Adopt your favorite pets and have them follow you around the game world. Whether you want a loyal dog by your side, a playful cat to keep you company, or a majestic toad to venture into battle, our Pet Adoption System has you covered.",
-        "link": "https://github.com/BryceCanyonCounty/bcc-pets",
-        "categories": ["scripts"]
     },
     "bcc-pets": {
         "image": "https://media.altchar.com/prod/images/940_530/gm-c2e1ada8-37b8-4358-807b-5533b2c30749-red-dead-redemption.jpg",

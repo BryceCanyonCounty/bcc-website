@@ -1,10 +1,10 @@
 <template>
     <div class="w-full bg-base-200">
-        <section class="text-center max-w-xl mx-auto pt-10">
+        <section class="text-center max-w-xl mx-auto pt-10 pb-20">
             <h1 class="text-4xl prevent-select text-center mb-10">Our Team</h1>
 
 
-            <div class="grid md:grid-cols-2 gap-x-6 lg:gap-xl-12">
+            <div class="grid md:grid-cols-2 gap-6 lg:gap-xl-12">
                 <div class="mb-12 lg:mb-0" v-for="(member, key) in team">
                     <img class="rounded-lg shadow-lg mb-6 mx-auto prevent-select" draggable="false" :src="member.avatar"
                         alt="avatar" style="width: 150px" />
