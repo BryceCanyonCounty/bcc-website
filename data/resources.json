@@ -1,4 +1,11 @@
 {
+    "bcc-camp": {
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2018/10/31/bf6ebe09-2148-4ee9-afeb-46c5bf95c29e/red-dead-redemption-2-camp",
+        "title": "BCC Camp",
+        "description": "Create your own personalized camp complete with a bedroll, customizable props, and a storage system for all your items. Plus, with the optional fast travel system, you can easily get around your camp with ease.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-camp",
+        "categories": ["scripts"]
+    },
     "bcc-stables": {
         "image": "https://cdn.mos.cms.futurecdn.net/2wM8h5SSzZCLk2QPpgeqUK-1200-80.jpg",
         "title": "BCC Stables",
