@@ -1,4 +1,11 @@
 {
+    "bcc-robbery": {
+        "image": "https://media.altchar.com/prod/images/940_530/gm-aff90566-8c30-401d-982a-5eeac1fd1fc0-red-dead.jpg",
+        "title": "BCC Robbery",
+        "description": "Allow your players to initiate heists with a simple command, defend against enemy NPCs, and earn valuable rewards from carefully crafted locations. With configurable settings and a version check feature, our script provides a seamless and immersive gaming experience",
+        "link": "https://github.com/BryceCanyonCounty/bcc-robbery",
+        "categories": ["scripts"]
+    },
     "bcc-camp": {
         "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2018/10/31/bf6ebe09-2148-4ee9-afeb-46c5bf95c29e/red-dead-redemption-2-camp",
         "title": "BCC Camp",
