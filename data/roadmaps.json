@@ -53,7 +53,7 @@
             {
                 "title": "Custom Wagon Blip",
                 "description": "Add a customizable blip to your oil, and supply wagons.",
-                "stage": "backlog"
+                "stage": "released"
             },
             {
                 "title": "Oil Sniffing",
@@ -84,7 +84,7 @@
             {
                 "title": "Fertilizer",
                 "description": "Add fertilizer, and when used will decrease the time it takes for the plant to grow.",
-                "stage": "backlog"
+                "stage": "released"
             },
             {
                 "title": "Refill Water Buckets At Pumps",
