@@ -1,4 +1,32 @@
 {
+    "bcc-boats": {
+        "image": "https://w0.peakpx.com/wallpaper/508/626/HD-wallpaper-red-dead-scene-1-red-dead-redemption-rdr2-red-dead-redemption-2-boat-boats.jpg",
+        "title": "BCC Boats",
+        "description": "Enhance your RedM boating adventure with this exceptional script! Boats can be easily bought and sold through customizable shops, with the option to pay with cash or gold. The script boasts individual boat inventories, personalized shop hours, and restricted access for specific jobs and job grades. The in-boat menus for anchor operation and remote boat return, along with the ability to give boats custom names and drive them across the map without sinking, provide a seamless and realistic boating experience.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-boats",
+        "categories": ["scripts"]
+    },
+    "bcc-playerblips": {
+        "image": "https://i.redd.it/kiarbx7z7hk31.jpg",
+        "title": "BCC PlayerBlips",
+        "description": "Introducing Real Time Player Blips, which update at a set interval and are automatically removed when the player leaves the server. Keep track of your friends and foes and stay ahead of the game with this convenient and useful script.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-playerblips",
+        "categories": ["scripts"]
+    },
+    "bcc-customblips": {
+        "image": "https://images.pushsquare.com/screenshots/93240/large.jpg",
+        "title": "BCC CustomBlips",
+        "description": "Looking for a script that will help you easily place blips on your server map? Look no further than this fantastic script! With customizable options for label, blip, and location, you can configure your blip placement using the config file. Plus, with job-locking capabilities, you can ensure that your blips only show up for certain jobs.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-customblips",
+        "categories": ["scripts"]
+    },
+    "bcc-portals": {
+        "image": "https://rare-gallery.com/uploads/posts/520400-Train-Red-Dead.png",
+        "title": "BCC Portals",
+        "description": "Looking for fast and convenient travel in your server? Our script has got you covered! With multiple ticket sellers to choose from and the option to add more, you'll have access to quick transportation to your desired location. Plus, with customizable shop hours and access restrictions based on job and job grade, you can tailor the script to fit your needs perfectly.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-portals",
+        "categories": ["scripts"]
+    },
     "bcc-robbery": {
         "image": "https://media.altchar.com/prod/images/940_530/gm-aff90566-8c30-401d-982a-5eeac1fd1fc0-red-dead.jpg",
         "title": "BCC Robbery",
