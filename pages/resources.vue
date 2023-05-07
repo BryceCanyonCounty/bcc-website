@@ -82,11 +82,17 @@ export default defineNuxtComponent({
   head (nuxtApp) {
     // `head` receives the nuxt app but cannot access the component instance
     return {
-      title: 'Resources | BCC Scripts',
-      meta: [{
-        name: 'description',
-        content: 'A Premier RedM Development Studio that provides in-depth tutorials, development resources, and open source scripts for the community.'
-      }]
+        title: 'Resources | BCC Scripts',
+        meta: [
+            {
+                name: 'description',
+                content: 'Explore our extensive collection of top-quality RedM scripts and development resources! Our website features a comprehensive list of open-source scripts that are easy to use and customizable to fit your needs. With a variety of resources ranging from beginner-level tutorials to advanced scripting techniques, our team is dedicated to providing the best tools and support to help you create amazing RedM experiences. Browse our collection today and discover why our RedM Development Studio is the go-to resource for developers and enthusiasts alike!'
+            },
+            {
+                name: 'keywords',
+                content: 'RedM, development, studio, scripts, resources, open-source, tutorials, tools, redm, vorp, VORP'
+            }
+        ]
     }
   },
   name: 'ResourcesView',

@@ -13,7 +13,7 @@
     </div>
 
     <Hero @btn-clicked="gotoGH()" actiontext="Help Contribute" :img="'/oss.png'" title="Open Source. Free. Always."
-      description="Our roleplay scripts are made and maintained purely as a labor of love, driven by the community with passion for roleplaying and the desire to share our creations with others. We offer them freely and as a way to contribute to the community and help others explore and enjoy the art of roleplaying and programming.">
+      description="Our RedM roleplay scripts are made and maintained purely as a labor of love, driven by the community with passion for roleplaying and the desire to share our creations with others. We offer them freely and as a way to contribute to the community and help others explore and enjoy the art of roleplaying and programming.">
     </Hero>
   </main>
 </template>
@@ -29,11 +29,17 @@ export default defineNuxtComponent({
   head(nuxtApp) {
     // `head` receives the nuxt app but cannot access the component instance
     return {
-      title: 'Home | BCC Scripts',
-      meta: [{
-        name: 'description',
-        content: 'A Premier RedM Development Studio that provides in-depth tutorials, development resources, and open source scripts for the community.'
-      }]
+        title: 'Home | BCC Scripts',
+        meta: [
+            {
+                name: 'description',
+                content: 'Looking for a reliable and experienced RedM development studio? Look no further than our premier RedM Development Studio! We provide top-quality tutorials, development resources, and open-source RedM scripts to help grow and support the RedM community. Whether you\'re new to RedM or an experienced developer, our team is dedicated to providing the best tools and resources to help you succeed. Join our community today and discover what sets us apart from the rest!'
+            },
+            {
+                name: 'keywords',
+                content: 'RedM, redm, development, studio, scripts, resources, tutorials, community, support, open-source, vorp, VORP'
+            }
+        ]
     }
   },
   name: 'HomeView',

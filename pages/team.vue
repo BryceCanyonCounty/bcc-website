@@ -49,10 +49,16 @@ export default defineNuxtComponent({
         // `head` receives the nuxt app but cannot access the component instance
         return {
             title: 'Our Team | BCC Scripts',
-            meta: [{
-                name: 'description',
-                content: 'A Premier RedM Development Studio that provides in-depth tutorials, development resources, and open source scripts for the community.'
-            }]
+            meta: [
+                {
+                    name: 'description',
+                    content: 'Meet the talented and experienced team behind our premier RedM Development Studio! Our team is made up of skilled developers, designers, and professionals who are passionate about creating amazing RedM experiences. From scripting to graphic design, our team members bring a wealth of expertise and creativity to every project we undertake. Get to know our team members and learn more about their individual skills and contributions to our studio\'s success. '
+                },
+                {
+                    name: 'keywords',
+                    content: 'RedM, development, studio, team, members, developers, designers, professionals, redm, vorp, VORP'
+                }
+            ]
         }
     },
     name: 'ResourcesView',
