@@ -4,7 +4,8 @@
         "title": "BCC Ranch",
         "description": "Let your players run virtual ranches with animal herding, ownership, chores, selling, and butchering. It's easily customizable with features like custom ranch names and version checking.",
         "link": "https://github.com/BryceCanyonCounty/bcc-ranch",
-        "categories": ["scripts"]
+        "categories": ["scripts"],
+        "roadmap": true
     },
     "bcc-minigames": {
         "image": "https://www.dayzrp.com/uploads/monthly_2018_11/45143910_2298277416909959_7978726321616322560_o.jpg.4f5832f736967cefd24a602da3ec316d.jpg",
@@ -113,7 +114,8 @@
         "title": "BCC Nazar",
         "description": "Add Madam Nazar to your RedM server with features like treasure hunts and a black market. You can buy, sell, and get hints for treasure chests from Madam Nazar. The treasure hunts are on a global cooldown and you can customize the currency used in her shop.",
         "link": "https://github.com/BryceCanyonCounty/bcc-nazar",
-        "categories": ["scripts"]
+        "categories": ["scripts"],
+        "roadmap": true
     },
     "bcc-farming": {
         "roadmap": true,
