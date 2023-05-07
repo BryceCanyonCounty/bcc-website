@@ -1,4 +1,19 @@
 {
+    "bcc-ranch": {
+        "image": "https://www.gamespot.com/a/uploads/original/1179/11799911/3383938-duck.jpg",
+        "title": "BCC Ranch",
+        "description": "Let your players run virtual ranches with animal herding, ownership, chores, selling, and butchering. It's easily customizable with features like custom ranch names and version checking.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-boats",
+        "categories": ["scripts"]
+    },
+    "bcc-minigames": {
+        "image": "https://www.dayzrp.com/uploads/monthly_2018_11/45143910_2298277416909959_7978726321616322560_o.jpg.4f5832f736967cefd24a602da3ec316d.jpg",
+        "title": "BCC Minigames",
+        "description": "For developers looking to add some fun mini-games to their RedM project, this script is a great option. It features a collection of API-based games, including rock paper scissors, lock picking, and skill checks, which can be easily integrated into your RedM project. These mini-games can add an extra layer of interactivity and enjoyment to your project, and help engage your users in new and exciting ways. Give it a try and see how it can enhance your development process!",
+        "link": "https://github.com/BryceCanyonCounty/bcc-boats",
+        "categories": ["development"],
+        "docs": true
+    },
     "bcc-boats": {
         "image": "https://w0.peakpx.com/wallpaper/508/626/HD-wallpaper-red-dead-scene-1-red-dead-redemption-rdr2-red-dead-redemption-2-boat-boats.jpg",
         "title": "BCC Boats",
