@@ -103,5 +103,57 @@
                 "stage": "backlog"
             }
         ]
+    },
+    "bcc-ranch": {
+        "title": "BCC Ranch",
+        "description": "A highly customizable ranching script, with features like butchering, herding, ownership, and more!",
+        "roadmap": [
+            {
+                "title": "Milk Cows and Goats",
+                "description": "Add ability to milk cows and goats owned by a ranch for rewards.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Harvest Eggs From Chickens",
+                "description": "Gather eggs layed by owned chickens.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Add More Ranch Chores",
+                "description": "Add more Chores to do at the ranch.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Sale Location Manager",
+                "description": "Make the location when you sell animals choose the closest sale location, not a random one.",
+                "stage": "backlog"
+            }
+        ]
+    },
+    "bcc-nazar": {
+        "title": "BCC Nazar",
+        "description": "Script aims to recreate Madam Nazar from RDO in RedM, features like treasure hunting, shop system, card collecting, and automatic moving every restart this will add much to do in your server!",
+        "roadmap": [
+            {
+                "title": "Collectable Jingle From RDO",
+                "description": "Make the collectable jingle from RDO when near a collectable play.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Collecting Eggs",
+                "description": "Collecting eggs from around the map similar to the cards.",
+                "stage": "backlog"
+            },
+            {
+                "title": "Collect Arrow Heads",
+                "description": "Collecting arrow heads from around the map by digging them up!",
+                "stage": "backlog"
+            },
+            {
+                "title": "Prompts",
+                "description": "Change over from drawtext3d to prompts for opening nazars menu.",
+                "stage": "backlog"
+            }
+        ]
     }
 }
