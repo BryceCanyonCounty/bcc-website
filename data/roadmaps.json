@@ -58,7 +58,7 @@
             {
                 "title": "Oil Sniffing",
                 "description": "Add a place to sniff oil and get high.",
-                "stage": "backlog"
+                "stage": "released"
             },
             {
                 "title": "Robbery Overhaul",
@@ -121,12 +121,12 @@
             {
                 "title": "Add More Ranch Chores",
                 "description": "Add more Chores to do at the ranch.",
-                "stage": "backlog"
+                "stage": "released"
             },
             {
                 "title": "Sale Location Manager",
                 "description": "Make the location when you sell animals choose the closest sale location, not a random one.",
-                "stage": "backlog"
+                "stage": "released"
             }
         ]
     },
