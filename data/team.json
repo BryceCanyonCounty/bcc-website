@@ -8,6 +8,12 @@
         "twitch": "https://www.twitch.tv/bytesizd"
     },
     {
+        "username": "SavSin",
+        "position": "Senior Developer",
+        "avatar": "https://avatars.githubusercontent.com/u/47730893?s=96&v=4",
+        "github": "https://github.com/DavFount"
+    },
+    {
         "username": "Jake2k4",
         "position": "Developer",
         "avatar": "https://avatars.githubusercontent.com/u/119366047?v=4",
@@ -19,12 +25,6 @@
         "position": "Developer",
         "avatar": "https://avatars.githubusercontent.com/u/37031311?s=96&v=4",
         "github": "https://github.com/JusCampin"
-    },
-    {
-        "username": "SavSin",
-        "position": "Developer",
-        "avatar": "https://avatars.githubusercontent.com/u/47730893?s=96&v=4",
-        "github": "https://github.com/DavFount"
     },
     {
         "username": "Jannings",
