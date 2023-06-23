@@ -133,7 +133,7 @@
         "categories": ["scripts"]
     },
     "bcc-posse": {
-        "image": "https://cdn.discordapp.com/attachments/994249779351650395/1118429495351840788/image.png"
+        "image": "https://cdn.discordapp.com/attachments/994249779351650395/1118429495351840788/image.png",
         "title": "BCC Posse",
         "description": "This script allows you to easily create a posse, manage those in out by recruiting and firing them, as well as use the provided export to be able to scale your missions, rewards and more to be based on the size of the Posse completing the task",
         "link": "https://github.com/BryceCanyonCounty/bcc-posse",
