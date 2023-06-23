@@ -16,6 +16,9 @@
                         <RouterLink to="/resources">Resources</RouterLink>
                     </li>
                     <li>
+                        <RouterLink to="/icons">Icons</RouterLink>
+                    </li>
+                    <li>
                         <RouterLink to="/team">Team</RouterLink>
                     </li>
                 </ul>
@@ -33,6 +36,9 @@
                 </li>
                 <li>
                     <RouterLink to="/resources">Resources</RouterLink>
+                </li>
+                <li>
+                    <RouterLink to="/icons">Icons</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/team">Team</RouterLink>
