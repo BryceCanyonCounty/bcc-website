@@ -1,7 +1,7 @@
 [
     {
         "username": "bytesizd",
-        "position": "Founder/Developer",
+        "position": "Founder",
         "avatar": "https://avatars.githubusercontent.com/u/10902965?v=4",
         "github": "https://github.com/BryceCanyonCounty",
         "youtube": "https://www.youtube.com/channel/UCmuccaVOwak0R3m0q9dyodA",
@@ -30,5 +30,10 @@
         "position": "Developer",
         "avatar": "https://avatars.githubusercontent.com/u/82676805?v=4",
         "github": "https://github.com/BurntJannings"
+    },
+    {
+        "username": "Lady Grey",
+        "position": "Designer",
+        "avatar": "https://cdn.discordapp.com/attachments/1032364319633063938/1121850274278031451/Lady_Grey_character_portrait_strawberry_blonde_woman_smoking_ba_62316436-149c-48b3-835d-805edd5b4b9e.PNG"
     }
 ]
