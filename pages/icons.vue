@@ -8,6 +8,7 @@
                     :key="icon">
                     <figure class="pt-4"><img style="height: 90px;" :src="icon.url" alt="Shoes" /></figure>
                     <div class="card-body mt-4">
+                        {{ icon.url  }}
                         <h2 class="card-title">{{ icon.name }}</h2>
                         <p>{{ icon.filename }}</p>
                         <div class="card-actions justify-end">
@@ -21,8 +22,7 @@
 </template>
     
 <script>
-const ServerIcons = import.meta.glob('../assets/servericons/*.png', { eager: true })
-
+import servericons from '../data/icons.json'
 export default defineNuxtComponent({
     head(nuxtApp) {
         // `head` receives the nuxt app but cannot access the component instance
@@ -49,16 +49,20 @@ export default defineNuxtComponent({
     mounted() {
         window.scrollTo(0, 0);
 
-        for (const path in ServerIcons) {
+        let l = servericons.length
+        for (let i = 0; i < l; i++) {
+            let filename = servericons[i];
+
             this.iconmodules.push({
-                name: path.replaceAll('../assets/servericons/', '').replaceAll('_', ' ').replaceAll('.png', ''),
-                url: new URL(path, import.meta.url).href,
-                filename: path.replaceAll('../assets/servericons/', '')
+                name: filename.replaceAll('.png', '').replaceAll('_', ' '),
+                url: `servericons/${filename}`,
+                filename: filename
             })
         }
     },
     methods: {
         async downloadImage(icon) {
+
             var blobdata = await this.$api
                 .get(icon.url, {
                     responseType: "arraybuffer"
