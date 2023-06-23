@@ -55,7 +55,7 @@ export default defineNuxtComponent({
 
             this.iconmodules.push({
                 name: filename.replaceAll('.png', '').replaceAll('_', ' '),
-                url: `servericons/${filename}`,
+                url: `https://bcc-scripts.com/servericons/${filename}`,
                 filename: filename
             })
         }
