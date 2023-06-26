@@ -1,4 +1,20 @@
 {
+    "bcc-housing": {
+        "image": "https://i.redd.it/us5w2jadyud21.jpg",
+        "title": "BCC Housing",
+        "description": "In depth housing system! This script has many features like placable furniture, taxes, inventories, and more!",
+        "link": "https://github.com/BryceCanyonCounty/bcc-housing",
+        "categories": ["scripts"],
+        "roadmap": false
+    },
+    "bcc-doorlocks": {
+        "image": "https://preview.redd.it/tarot-card-in-room-1a-in-valentine-door-wont-open-why-v0-c1vpy2d5mkb81.jpg?auto=webp&s=19ae914181215f6723a124c303a16032ff05fc8a",
+        "title": "BCC Doorlocks",
+        "description": "Let your admins create doors that players can unlock/lock based on jobs, character id's, or key item! Easily customizable highly configurable.",
+        "link": "https://github.com/BryceCanyonCounty/bcc-doorlocks",
+        "categories": ["scripts"],
+        "roadmap": false
+    },
     "bcc-ranch": {
         "image": "https://www.gamespot.com/a/uploads/original/1179/11799911/3383938-duck.jpg",
         "title": "BCC Ranch",
