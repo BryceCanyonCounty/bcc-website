@@ -109,14 +109,14 @@
         "description": "A highly customizable ranching script, with features like butchering, herding, ownership, and more!",
         "roadmap": [
             {
-                "title": "Milk Cows and Goats",
-                "description": "Add ability to milk cows and goats owned by a ranch for rewards.",
-                "stage": "backlog"
+                "title": "Milk Cows",
+                "description": "Add ability to milk cows owned by a ranch for rewards.",
+                "stage": "released"
             },
             {
                 "title": "Harvest Eggs From Chickens",
                 "description": "Gather eggs layed by owned chickens.",
-                "stage": "backlog"
+                "stage": "released"
             },
             {
                 "title": "Add More Ranch Chores",
