@@ -66,7 +66,7 @@ export default defineNuxtComponent({
         }
     },
     methods: {
-        async downloadIt(url, filename) {
+        async downloadIt(url, filename, api = true) {
             var blobdata = await this.$api
                 .get(url, {
                     responseType: "arraybuffer"
@@ -76,6 +76,8 @@ export default defineNuxtComponent({
                 });
             
             const turl = window.URL.createObjectURL(new Blob([blobdata]))
+            
+            
             const link = document.createElement('a')
             link.href = turl
             link.setAttribute('download', filename)
@@ -86,7 +88,7 @@ export default defineNuxtComponent({
             this.downloadIt(icon.url, icon.filename)
         },
         async downloadAllImages() {
-            this.downloadIt('https://github.com/BryceCanyonCounty/bcc-website/tree/main/public/servericonsbundle.zip', 'bcc-image-bundle.zip')
+            window.open('https://github.com/BryceCanyonCounty/bcc-website/raw/main/public/servericonsbundle.zip', '_blank')
         }
     },
     computed: {
