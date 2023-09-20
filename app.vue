@@ -21,6 +21,7 @@ import Footer from '~/components/Footer.vue'
 
 body {
     min-height: 100vh;
+    color: white;
 }
 
 .slide-fade-enter-active {
