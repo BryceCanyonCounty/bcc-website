@@ -57,7 +57,7 @@ If you want to use any natives that are not yet included, you can utilize the ra
 -- client side only
 
 Citizen.CreateThread(function()
-    local  blip = BccUtils.Blips:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vector3 or nil)
+    local  blip = BccUtils.Blip:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vector3 or nil)
 
     local rawblip = blip.rawblip
     -- OR
@@ -76,11 +76,11 @@ Delete a marker (blip) on the players map
 -- client side only
 
 Citizen.CreateThread(function()
-    local  blip = BccUtils.Blips:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vecotr3 or nil)
+    local  blip = BccUtils.Blip:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vecotr3 or nil)
 
     blip:Remove()
     -- OR
-    --- BccUtils.Blips:RemoveBlip(blip.rawblip)
+    --- BccUtils.Blip:RemoveBlip(blip.rawblip)
 end)
 ```
 
@@ -100,11 +100,11 @@ Create a Radius blip
 
 
 Citizen.CreateThread(function()
-    local  blip = BccUtils.Blips:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vector3 or nil)
+    local  blip = BccUtils.Blip:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z,vector3 or nil)
 
     blip:AddRadius(64.0, -1282792512)
     -- OR
-    -- BccUtils.Blips:AddRadius(64.0, x, y, z, -1282792512)
+    -- BccUtils.Blip:AddRadius(64.0, x, y, z, -1282792512)
 end)
 ```
 
@@ -123,7 +123,7 @@ This sets up the Prompt Group, which will allow you to attach future prompts to 
 -- client side only
 
 Citizen.CreateThread(function()
-	local  PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local  PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 end)
 ```
 
@@ -160,7 +160,7 @@ Once you have the Prompt Group setup, you can now register a prompt to display w
 
 
 Citizen.CreateThread(function()
-	local PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
@@ -188,7 +188,7 @@ Now that you have a Group setup and a registered Prompt, you can now display the
 
 
 Citizen.CreateThread(function()
-	local PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
@@ -217,7 +217,7 @@ You can trigger code when a prompt has a completion event triggered (Example: cl
 
 
 Citizen.CreateThread(function()
-	local  PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local  PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
@@ -254,7 +254,7 @@ You can trigger code when a prompt has a failure event triggered (Example: timed
 
 
 Citizen.CreateThread(function()
-	local  PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local  PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
@@ -290,7 +290,7 @@ Remove a prompt completely
 
 
 Citizen.CreateThread(function()
-	local  PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local  PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
@@ -325,7 +325,7 @@ Make a prompt visible or hidden
 
 
 Citizen.CreateThread(function()
-	local  PromptGroup = BccUtils.Prompts:SetupPromptGroup() --Setup Prompt Group
+	local  PromptGroup = BccUtils.Prompt:SetupPromptGroup() --Setup Prompt Group
 	
 	local firstprompt = PromptGroup:RegisterPrompt("Press Me", 0x4CC0E2FE, 1, 1, true, 'hold', {timedeventhash = "MEDIUM_TIMED_EVENT"}) --Register your first prompt
 
