@@ -9,7 +9,7 @@
     },
     {
         "username": "SavSin",
-        "position": "Senior Developer",
+        "position": "Developer",
         "avatar": "https://avatars.githubusercontent.com/u/47730893?s=96&v=4",
         "github": "https://github.com/DavFount"
     },
@@ -35,12 +35,23 @@
     {
         "username": "Lady Grey",
         "position": "Designer",
-        "avatar": "https://cdn.discordapp.com/attachments/1032364319633063938/1121850274278031451/Lady_Grey_character_portrait_strawberry_blonde_woman_smoking_ba_62316436-149c-48b3-835d-805edd5b4b9e.PNG"
+        "avatar": "https://cdn.discordapp.com/avatars/569613620691075112/916a1cc3bef400473f49147867861fc5.webp?size=128"
     },
     {
         "username": "Elzetia",
         "position": "Developer",
         "avatar": "https://avatars.githubusercontent.com/u/9192488?v=4",
         "github": "https://github.com/elzetia"
+    },
+    {
+        "username": "Fistsoffury",
+        "position": "Staff",
+        "avatar": "https://avatars.githubusercontent.com/u/92045818?v=4",
+        "github": "https://github.com/Fistsofury"
+    },
+    {
+        "username": "Charlie",
+        "position": "Staff",
+        "avatar": "https://cdn.discordapp.com/avatars/1011606164489904209/c28b4baa853642c3fe2b82c3414b8298.webp?size=128"
     }
 ]
