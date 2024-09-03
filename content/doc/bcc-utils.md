@@ -48,6 +48,23 @@ Citizen.CreateThread(function()
 end)
 ```
 
+#### Add Blip Modifier
+<Badge type="warning" text="Client Side Only" /> 
+
+Add a modifier to a blip, which can change its appearance or behavior.
+
+```lua
+-- client side only
+
+Citizen.CreateThread(function()
+    local blip = BccUtils.Blips:SetBlip('Gift', 'blip_special_series_1', 0.2, x, y, z, vector3 or nil)
+
+    local blipModifier = BccUtils.Blips:AddBlipModifier(blip, 'BLIP_MODIFIER_MP_COLOR_8')
+    blipModifier:ApplyModifier()
+    
+end)
+```
+
 #### Get Raw Blip
 <Badge type="warning" text="Client Side Only" /> 
 
