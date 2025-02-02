@@ -2322,3 +2322,211 @@ Utils.Command.Register('doSomething', 'does something', function ()
    Utils.NetEvents:TriggerNetEvent("doSomethingRemote", -1, {text = "World"})
 end)
 ```
+
+### Crypt/Hashing
+
+A RedM Cryptography and Hashing library for lua developers
+
+#### Base64
+In [computer programming](https://en.wikipedia.org/wiki/Computer_programming), Base64 is a group of [binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding) schemes that represent [binary data](https://en.wikipedia.org/wiki/Binary_data) (more specifically, a sequence of 8-bit [bytes](https://en.wikipedia.org/wiki/Byte)) in sequences of 24 [bits](https://en.wikipedia.org/wiki/Bit) that can be represented by four 6-bit Base64 digits.
+
+Common to all binary-to-text encoding schemes, Base64 is designed to carry data stored in binary formats across channels that only reliably support text content. Base64 is particularly prevalent on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web)[[1]](https://en.wikipedia.org/wiki/Base64#cite_note-1) where one of its uses is the ability to embed [image files](https://en.wikipedia.org/wiki/Image_files) or other binary assets inside textual assets such as [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/CSS) files.[[2]](https://en.wikipedia.org/wiki/Base64#cite_note-2)
+
+##### How to use
+```lua
+local encrypted= Utils.Crypt.base64.encrypt('hello world')
+print(encrypted)
+
+local decrypted = Utils.Crypt.base64.decrypt(encrypted)
+print(decrypted )
+```
+
+#### SHA
+This script provides functions to calculate SHA digest.
+
+SHA takes an input and produces a 160-[bit](https://en.wikipedia.org/wiki/Bit) (20-[byte](https://en.wikipedia.org/wiki/Byte)) hash value known as a [message digest](https://en.wikipedia.org/wiki/Message_digest) – typically rendered as 40 [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal) digits.
+
+##### How to use
+
+###### MD5
+```lua
+Utils.Crypt.sha.md5(message)
+```
+
+###### SHA-1 
+```lua
+Utils.Crypt.sha.sha1(message)
+```
+
+###### SHA-224 
+```lua
+Utils.Crypt.sha.sha224(message)
+```
+
+###### SHA-256
+```lua
+Utils.Crypt.sha.sha256(message)
+```
+
+###### SHA-384
+```lua
+Utils.Crypt.sha.sha384(message)
+```
+
+###### SHA-512
+```lua
+Utils.Crypt.sha.sha512(message)
+```
+
+###### SHA-512/224
+```lua
+Utils.Crypt.sha.sha512_224(message)
+```
+
+###### SHA-512/256
+```lua
+Utils.Crypt.sha.sha512_256(message)
+```
+
+###### SHA3-224
+```lua
+Utils.Crypt.sha.sha3_224(message)
+```
+
+###### SHA3-256
+```lua
+Utils.Crypt.sha.sha3_256(message)
+```
+
+###### SHA3-384
+```lua
+Utils.Crypt.sha.sha3_384(message)
+```
+
+###### SHA3-512
+```lua
+Utils.Crypt.sha.sha3_512(message)
+```
+
+###### SHAKE128
+```lua
+Utils.Crypt.sha.shake128(digest_size_in_bytes, message)
+```
+
+###### SHAKE256
+```lua
+Utils.Crypt.sha.shake256(digest_size_in_bytes, message)
+```
+
+###### HMAC
+
+> (applicable to any hash function mentioned above except SHAKE)
+
+```lua
+Utils.Crypt.sha.hmac(sha.any_hash_func, key, message)
+```
+
+###### BLAKE2b
+```lua
+Utils.Crypt.sha.blake2b(message, key, salt, digest_size_in_bytes)
+```
+
+###### BLAKE2s
+```lua
+Utils.Crypt.sha.blake2s(message, key, salt, digest_size_in_bytes)
+```
+
+###### BLAKE2bp
+```lua
+Utils.Crypt.sha.blake2bp(message, key, salt, digest_size_in_bytes)
+```
+
+###### BLAKE2sp
+```lua
+Utils.Crypt.sha.blake2sp(message, key, salt, digest_size_in_bytes)  -- BLAKE2sp is used in WinRAR and 7-Zip
+```
+
+###### BLAKE2Xb
+```lua
+Utils.Crypt.sha.blake2xb(digest_size_in_bytes, message, key, salt)
+```
+
+###### BLAKE2Xs
+```lua
+Utils.Crypt.sha.blake2xs(digest_size_in_bytes, message, key, salt)
+```
+
+###### BLAKE2b-160
+```lua
+Utils.Crypt.sha.blake2b_160(message, key, salt)  -- BLAKE2b with digest_size_in_bytes = 20
+```
+
+###### BLAKE2b-256
+```lua
+Utils.Crypt.sha.blake2b_256(message, key, salt)  -- BLAKE2b with digest_size_in_bytes = 32
+```
+
+###### BLAKE2b-384
+```lua
+Utils.Crypt.sha.blake2b_384(message, key, salt)  -- BLAKE2b with digest_size_in_bytes = 48
+```
+
+###### BLAKE2b-512
+```lua
+Utils.Crypt.sha.blake2b_512(message, key, salt)  -- BLAKE2b with digest_size_in_bytes = 64 (default size)
+```
+
+###### BLAKE2s-128
+```lua
+Utils.Crypt.sha.blake2s_128(message, key, salt)  -- BLAKE2s with digest_size_in_bytes = 16
+```
+
+###### BLAKE2s-160
+```lua
+Utils.Crypt.sha.blake2s_160(message, key, salt)  -- BLAKE2s with digest_size_in_bytes = 20
+```
+
+###### BLAKE2s-224
+```lua
+Utils.Crypt.sha.blake2s_224(message, key, salt)  -- BLAKE2s with digest_size_in_bytes = 28
+```
+
+###### BLAKE2s-256
+```lua
+Utils.Crypt.sha.blake2s_256(message, key, salt)  -- BLAKE2s with digest_size_in_bytes = 32 (default size)
+```
+
+###### BLAKE3
+```lua
+Utils.Crypt.sha.blake3(message, key, digest_size_in_bytes)
+```
+
+###### BLAKE3_KDF
+```lua
+Utils.Crypt.sha.blake3_derive_key(key_material, context_string, derived_key_size_in_bytes)
+```
+
+#### RC4
+https://en.wikipedia.org/wiki/RC4
+
+##### How to use
+```lua
+local rc4 = nil
+RegisterCommand("rc4:e", function(source, args, rawCommand)
+    rc4 = crypt.rc4.encrypt('thisisakey', args[1])
+    print(rc4)
+end)
+
+RegisterCommand("rc4:d", function(source, args, rawCommand)
+    print(crypt.rc4.decrypt('thisisakey', rc4))
+end)
+```
+
+### UUID
+A UUID is a Universally Unique Identifier used for information in computer systems. The general purpose for this is generating unique identifiers for users, elements, etc.
+
+#### How to use
+```lua
+local uuid = Utils.Crypt.uuid4()
+print(uuid)
+```
