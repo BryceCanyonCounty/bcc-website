@@ -410,7 +410,7 @@ This will spawn a pedestrian in your game world
 | vehicle | seat | VS_ANY_PASSENGER, VS_DRIVER, VS_FRONT_RIGHT, VS_BACK_LEFT, VS_BACK_RIGHT, VS_EXTRA_LEFT_1, VS_EXTRA_RIGHT_1, VS_EXTRA_LEFT_2, VS_EXTRA_RIGHT_2, VS_EXTRA_LEFT_3, VS_EXTRA_RIGHT_3, VS_NUM_SEATS | { seat = "VS_FRONT_RIGHT" } |
 | mount | mount | mount entity | { mount = yourmount } |
 
-`BccUtils.Peds:Create()`
+`BccUtils.Ped:Create()`
 
 Example Usage:
 
@@ -424,7 +424,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false, isnetwork or false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false, isnetwork or false)
 end)
 ```
 
@@ -452,7 +452,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:Freeze()
 end)
@@ -482,7 +482,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:Invincible()
 end)
@@ -512,7 +512,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:CanBeDamaged()
 end)
@@ -542,7 +542,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:SetHeading(0)
 end)
@@ -572,7 +572,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:SeeingRange(70.0)
 end)
@@ -602,7 +602,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:HearingRange(80.0)
 end)
@@ -632,7 +632,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('u_f_m_tumgeneralstoreowner_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:CanBeMounted(true)
 end)
@@ -662,7 +662,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:AddPedToGroup(GetPedGroupIndex(PlayerPedId()))
 
@@ -689,7 +689,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:ClearTasks()
 
@@ -716,7 +716,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     while (ped:GetTaskStatus(0x4924437d) ~= 8) do
         Wait(1000)
@@ -751,7 +751,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:FollowToOffsetOfEntity(PlayerPedId(), 0.0, -1.5, 0.0, 1.0, -1, 10, 1, 1)
 
@@ -782,7 +782,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('A_C_DogBluetickCoonhound_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('A_C_DogBluetickCoonhound_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:ChangeOutfit(0xDC567AF8)
 
@@ -814,7 +814,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:SetBlip(953018525, 'Person')
 end)
@@ -850,7 +850,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
     ped:AttackTarget(PlayerPedId())
 
     ped:GiveWeapon(0x64356159, 500, true, true, 3, false, true, true)
@@ -881,7 +881,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:FleeAtribute('DISABLE_ENTER_VEHICLES', true)
 end)
@@ -913,7 +913,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:SetPedCombatAttributes({
         {flag = 0, enabled = false}
@@ -945,7 +945,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:SetCombatStyle('SituationAllStop', 240.0)
 end)
@@ -970,7 +970,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:ClearCombatStyle()
 end)
@@ -1000,7 +1000,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:AttackTarget(PlayerPedId(), 'LAW')
 end)
@@ -1025,7 +1025,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     ped:Remove()
 end)
@@ -1050,7 +1050,7 @@ Citizen.CreateThread(function()
         z = 118.38395690917968, y = 802.531982421875, x = -279.46728515625
     }
 
-    local ped = BccUtils.Peds:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
+    local ped = BccUtils.Ped:Create('s_m_m_valdeputy_01', coords.x, coords.y, coords.z, 0, 'world', false)
 
     local rawped = ped:GetPed()
 
